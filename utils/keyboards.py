@@ -13,7 +13,7 @@ main_kb = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text="Chats statistics"),
-            # KeyboardButton(text="All statistics"),
+            KeyboardButton(text="All statistics"),
         ]
     ],
     resize_keyboard=True,
